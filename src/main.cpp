@@ -84,6 +84,7 @@ void setup() {
   
   // Initialize serial communication
   Serial.begin(9600);
+
   
   // Load team data from EEPROM or initialize defaults
   loadTeamData();
@@ -93,6 +94,7 @@ void setup() {
   
   // Show main menu
   showMainMenu();
+
 }
 
 void loop() {
