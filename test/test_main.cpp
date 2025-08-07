@@ -1,5 +1,5 @@
 #include <unity.h>
-#include "../src/game.h"
+#include "../src/main.h"
 
 // Test helper functions
 void setUp(void) {
