@@ -111,17 +111,4 @@
 #define DURATION_LONG 400
 #define DURATION_ERROR 800
 
-// ===== DEBUG CONFIGURATION =====
-
-// Uncomment to enable debug mode
-// #define DEBUG_MODE 1
-
-#ifdef DEBUG_MODE
-  #define DEBUG_PRINT(x) Serial.print(x)
-  #define DEBUG_PRINTLN(x) Serial.println(x)
-#else
-  #define DEBUG_PRINT(x)
-  #define DEBUG_PRINTLN(x)
-#endif
-
 #endif // CONFIG_H
